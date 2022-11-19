@@ -13,6 +13,6 @@ def solution(H):
             if(len(S)==0 or H[i]!=S[-1]):
                 c+=1
                 S.append(H[i])
-                last=H[i]
+             last=H[i]
     return c
     pass
